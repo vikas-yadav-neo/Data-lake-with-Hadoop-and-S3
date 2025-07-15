@@ -69,6 +69,7 @@ A **modern, async-first pipeline** to fetch Bitcoin block data from a full node,
 ```bash
 https://github.com/vikas-yadav-neo/Data-lake-with-Hadoop-and-S3
 cd Data-lake-with-Hadoop-and-S3
+cd bitcoin-hadoop-pipeline
 ```
 
 
