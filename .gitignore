@@ -7,8 +7,8 @@ bitcoin-hadoop-pipeline/*.json
 bitcoin-hadoop-pipeline/*.log
 bitcoin-hadoop-pipeline/sample_block.txt
 bitcoin-hadoop-pipeline/test.py
-bitcoin-hadoop-pipeline/read_content.py
-bitcoin-hadoop-pipeline/read_dir.py
+read_content.py
+read_dir.py
 bitcoin-hadoop-pipeline/.idea
 bitcoin-hadoop-pipeline/.git
 create_structure.py
