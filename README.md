@@ -21,7 +21,7 @@ This directory demonstrates two foundational data engineering pipelines:
     - Pluggable consumer/producer, schema registry, and testable data pipeline.
     - Production-grade logging and modular config.
 - **How to run:**
-See [`bitcoin-hadoop-pipeline/Bitcoin Block Data Ingestion Pipeline.md`](./bitcoin-hadoop-pipeline/Bitcoin Block Data Ingestion Pipeline.md)
+See [`bitcoin-hadoop-pipeline/Bitcoin Block Data Ingestion Pipeline.md`](./bitcoin-hadoop-pipeline/Bitcoin%20Block%20Data%20Ingestion%20Pipeline.md)
 
 
 #### 2. S3→PostgreSQL ETL Demo
