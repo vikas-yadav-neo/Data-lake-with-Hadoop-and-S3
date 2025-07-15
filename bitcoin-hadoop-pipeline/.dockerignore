@@ -1,0 +1,11 @@
+.venv
+logs
+src/bitcoin_pipeline.egg-info
+src/utils/config.yaml
+.env
+*.json
+*.log
+sample_block.txt
+test.py
+read_content.py
+read_dir.py

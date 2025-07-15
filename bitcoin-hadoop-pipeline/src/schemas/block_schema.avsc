@@ -1,0 +1,44 @@
+{
+  "type": "record",
+  "name": "BlockMetadata",
+  "namespace": "com.bitcoin.chain",
+  "doc": "Metadata for a Bitcoin block.",
+  "fields": [
+    { "name": "hash", "type": "string" },
+    { "name": "confirmations", "type": "int" },
+    { "name": "size", "type": "int" },
+    { "name": "strippedsize", "type": "int" },
+    { "name": "weight", "type": "int" },
+    { "name": "height", "type": "int" },
+    { "name": "version", "type": "int" },
+    { "name": "versionHex", "type": "string" },
+    { "name": "merkleroot", "type": "string" },
+
+    {
+      "name": "tx",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+
+    { "name": "time", "type": "long" },
+    { "name": "mediantime", "type": "long" },
+    { "name": "nonce", "type": "long" },
+    { "name": "bits", "type": "string" },
+    { "name": "difficulty", "type": "double" },
+    { "name": "chainwork", "type": "string" },
+    { "name": "nTx", "type": "int" },
+
+    {
+      "name": "previousblockhash",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "nextblockhash",
+      "type": ["null", "string"],
+      "default": null
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[project]
+name = "bitcoin_pipeline"
+version = "0.1.0"
+description = "Bitcoin Blockchain Data Engineering Pipeline"
+authors = [{name = "Darshan Pandey", email = "darshan.pandey@neosoftmail.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "confluent-kafka",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

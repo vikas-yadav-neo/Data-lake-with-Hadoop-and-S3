@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "BlockHash",
+  "namespace": "com.bitcoin.chain",
+  "doc": "Schema for Bitcoin block hash metadata.",
+  "fields": [
+    {
+      "name": "block_hex",
+      "type": "string",
+      "doc": "A string that is serialized, hex-encoded data for block ‘hash’"
+    },
+    {
+      "name": "height",
+      "type": "long",
+      "doc": "Block height in the blockchain"
+    },
+    {
+      "name": "timestamp",
+      "type": "long",
+      "doc": "Block timestamp, UNIX epoch"
+    }
+  ]
+}
