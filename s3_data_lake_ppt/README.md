@@ -1,4 +1,4 @@
-## Data Lake?
+## Data Lake
 
 A large, centralized storage that holds all types of data.
 
@@ -6,7 +6,7 @@ Stores everything as-is — logs, videos, images, CSVs, JSONs, etc.
 
 Example: AWS S3, Azure Data Lake Storage Gen2, Google Cloud Storage
 
-## Data Warehouse?
+## Data Warehouse
 
 A system used for reporting and data analysis.
 
@@ -132,3 +132,13 @@ Create Activity (add created Linked Service and Dataset)
 #### versioning in AWS 
 -Keeps all versions of a file — allows restores and backups
 -can save same name of files with different versions
+
+## S3 ACL	
+Object-level access control (older method, use IAM/Bucket Policy preferred)
+
+## How to Access Amazon S3 Bucket?
+You can work and access the Amazon S3 bucket by using any one of the following methods
+
+AWS Management Console
+AWS CLI Commands
+Programming Scripts ( Using boto3 library of Python )
